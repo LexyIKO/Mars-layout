@@ -1,0 +1,145 @@
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        height: 6vh;
+        width: 100vw;
+        max-width: 100%;
+        flex-direction: row;
+        border-right: 0;
+        border-bottom: 2px solid black;
+        border-image: linear-gradient(to right, rgba(192, 182, 255, 0.45), rgba(255, 255, 255, 0.41));
+        border-image-slice: 1;
+        align-items: center;
+    }
+
+    .burger__menu {
+        width: 30px;
+        max-width: 30px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .social {
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 10%;
+    }
+
+    .logo__block {
+        width: 6vh;
+        left: auto;
+        right: 0;
+    }
+
+    .main__content {
+        width: auto;
+        flex-direction: column;
+        background-size: auto;
+    }
+
+    .mars__picture {
+        width: 90vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .info__box {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 60px;
+
+    }
+
+    .info__box__elem {
+        height: 20vw;
+        flex-basis: 40%;
+    }
+
+    .info__box__elem h2 {
+        font-size: 20px;
+    }
+
+    .info__box__elem p {
+        font-size: 16px;
+    }
+
+    .elem1, .elem2, .elem3, .elem4  {
+        margin: auto;
+    }
+
+    .content__box {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .info__box__elem h2 {
+        font-size: 14px;
+    }
+
+    .info__box__elem p {
+        font-size: 10px;
+    }
+
+    .content__box {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        border:2px solid rgba(245, 49, 85, 0.5) ;
+        border-radius: 10px;
+        padding: 0px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .content__box__header{
+        border-bottom:2px solid rgba(245, 49, 85, 0.5);
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+        height: 40px;
+    }
+
+    .content__box__header__nav{
+        margin-top: 20px !important;
+
+    }
+
+    .content__box__header p{
+        font-size: 9px;
+        padding-bottom: 7.5px;
+    }
+
+    .content__box__main__tagline {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .tagline__element {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .tagline__element p{
+        margin-left: 5px;
+    }
+
+    .content__box__footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0 10px 0;
+    }
+
+    .content__box__button {
+        width: 80%;
+        font-size: 18px;
+    }    
+
+}
